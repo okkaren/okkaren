@@ -60,14 +60,22 @@ let karens = [
     location: "Brooklyn, NY",
     answers: [
       {
-        question: "Favorite books, movies, shows, music, and food",
-        answer: "",
+        question: "On a typical Friday night I am",
+        answer:
+          "At my local corner deli accusing children of sexual assualt and berating bystands who are telling me to go home.",
       },
     ],
     links: [
       {
         link: "https://heavy.com/news/2018/10/teresa-sue-klein/",
-        icon: "https://heavy.com/favicon.ico",
+        icon:
+          "https://heavy.com/wp-content/themes/heavy/assets/images/icons/heavy/android-chrome-36x36.png",
+      },
+      {
+        link:
+          "https://nypost.com/2018/10/12/white-woman-calls-cops-on-black-child-she-says-touched-her-butt/",
+        icon:
+          "https://nypost.com/wp-content/themes/nypost-2016/static/images/favicon-nypost/favicon.ico",
       },
       {
         link:

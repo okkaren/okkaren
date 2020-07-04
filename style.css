@@ -120,11 +120,15 @@ body {
 }
 .link {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 12px;
 }
 .link img {
-  width: 16px;
-  height: 16px;
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+.box:hover .link img {
+  display: inline-block;
 }
 
 footer {

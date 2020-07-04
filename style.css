@@ -123,12 +123,19 @@ body {
   margin-right: 12px;
 }
 .link img {
-  display: none;
   width: 24px;
   height: 24px;
 }
 .box:hover .link img {
   display: inline-block;
+}
+@media (hover: hover) and (pointer: fine) {
+  .link img {
+    display: none;
+  }
+  .box:hover .link img {
+    display: inline-block;
+  }
 }
 
 footer {

@@ -208,9 +208,44 @@ function getHTML(k) {
 }
 
 function setBGColor() {
-  const colors = ["#f7c7e0", "#e6a4c0", "#5ac1f7", "#63d4ee", "#57b96f"];
+  const colors = [
+    {
+      bg: "#f7c7e0", // pink
+      button: "#F48FB1",
+      button_hover: "#F06292",
+    },
+    {
+      bg: "#e6a4c0", // pink
+      button: "#F48FB1",
+      button_hover: "#F06292",
+    },
+    {
+      bg: "#5ac1f7", // light blue
+      button: "#2196f3",
+      button_hover: "#1a73e8",
+    },
+    {
+      bg: "#63d4ee", // light blue
+      button: "#2196f3",
+      button_hover: "#1a73e8",
+    },
+    {
+      bg: "#57b96f", // green
+      button: "#81C784",
+      button_hover: "#A5D6A7",
+    },
+  ];
   const i = Math.floor(Math.random() * colors.length);
-  $("html").css("background-color", colors[i]);
+  $("html").css("background-color", colors[i].bg);
+
+  $("#add_karen").css("background-color", colors[i].button);
+  $("#add_karen")
+    .mouseover(function () {
+      $(this).css("background-color", colors[i].button_hover);
+    })
+    .mouseout(function () {
+      $(this).css("background-color", colors[i].button);
+    });
 }
 
 function shuffle(array) {

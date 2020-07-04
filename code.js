@@ -47,6 +47,12 @@ let karens = [
         icon:
           "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
       },
+      {
+        link:
+          "https://www.washingtonpost.com/nation/2020/07/01/mccloskey-st-louis-guns-protest/",
+        icon:
+          "https://www.washingtonpost.com/pf/resources/images/favicon.ico?d=263",
+      },
     ],
     image: "images/karen_stl_1_320x280.jpg",
   },
@@ -62,6 +68,12 @@ let karens = [
       },
     ],
     links: [
+      {
+        link:
+          "https://nypost.com/2020/06/29/dallas-karen-tosses-food-during-mask-meltdown/",
+        icon:
+          "https://nypost.com/wp-content/themes/nypost-2016/static/images/favicon-nypost/favicon.ico",
+      },
       {
         link: "https://www.youtube.com/watch?v=b9oJtSpOQhY",
         icon: "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
@@ -81,6 +93,10 @@ let karens = [
       },
     ],
     links: [
+      {
+        link: "https://www.bbc.com/news/newsbeat-44167760",
+        icon: "http://www.bbc.com/favicon.ico",
+      },
       {
         link:
           "https://www.nytimes.com/2018/10/22/opinion/calling-police-racism-wyt-fear.html",

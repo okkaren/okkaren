@@ -1,14 +1,17 @@
 @font-face {
   font-family: "GT America";
-  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Regular/GT-America-Regular.woff) format("woff");
+  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Regular/GT-America-Regular.woff)
+    format("woff");
 }
 @font-face {
   font-family: "GT America Medium";
-  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Medium/GT-America-Medium.woff) format("woff");
+  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Medium/GT-America-Medium.woff)
+    format("woff");
 }
 @font-face {
   font-family: "GT America Black";
-  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Black/GT-America-Black.woff) format("woff");
+  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Black/GT-America-Black.woff)
+    format("woff");
 }
 html {
   background-color: #5ac1f7;
@@ -20,7 +23,8 @@ body {
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "GT America", "nyt-franklin", "Helvetica Neue", garamond, helvetica, sans serif;
+  font-family: "GT America", "nyt-franklin", "Helvetica Neue", garamond,
+    helvetica, sans serif;
   width: 100%;
   height: 100%;
 }
@@ -61,7 +65,7 @@ body {
   box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-.box img {
+.box .img_karen {
   border-radius: 6px 6px 0 0;
   width: 320px;
 }
@@ -86,13 +90,14 @@ body {
   color: #ffffff;
   font-size: 18px;
   font-weight: 300;
-  font-family: "GT America Medium", "nyt-franklin", "Helvetica Neue", garamond, helvetica, sans serif;
-  background-color: rgba(0,0,0,0.1);
+  font-family: "GT America Medium", "nyt-franklin", "Helvetica Neue", garamond,
+    helvetica, sans serif;
+  background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
   padding: 4px 0;
 }
 .info:hover {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .summary_div {
@@ -104,7 +109,22 @@ body {
 .summary_title {
   font-weight: 700;
   margin-bottom: 4px;
-  font-family: "GT America Black", "nyt-franklin", "Helvetica Neue", garamond, helvetica, sans serif;
+  font-family: "GT America Black", "nyt-franklin", "Helvetica Neue", garamond,
+    helvetica, sans serif;
+}
+
+.links {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.link {
+  display: inline-block;
+  margin-right: 8px;
+}
+.link img {
+  width: 16px;
+  height: 16px;
 }
 
 footer {

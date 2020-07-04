@@ -6,43 +6,88 @@ let karens = [
     user: "CPKaren83",
     age: "37",
     location: "New York, NY",
-    summary_title: "My self-summary",
-    summary:
-      "I enjoy long walks in Central Park with my cocker spaniel, Henry. Pet peeves include African-American bird-watchers, doorman, and people filming me.",
-    link:
-      "https://www.nytimes.com/2020/06/14/nyregion/central-park-amy-cooper-christian-racism.html",
+    answers: [
+      {
+        question: "My self-summary",
+        answer:
+          "I enjoy long walks in Central Park with my cocker spaniel, Henry. Pet peeves include African-American bird-watchers, doorman, and people filming me.",
+      },
+    ],
+    links: [
+      {
+        link:
+          "https://nypost.com/2020/06/15/central-park-karen-amy-cooper-tried-to-have-doorman-fired-report/",
+        icon:
+          "https://nypost.com/wp-content/themes/nypost-2016/static/images/favicon-nypost/favicon.ico",
+      },
+      {
+        link:
+          "https://www.nytimes.com/2020/06/14/nyregion/central-park-amy-cooper-christian-racism.html",
+        icon:
+          "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
+      },
+    ],
     image: "images/karen_cp_1_320x280.jpg",
   },
   {
     user: "KarenOakley",
     age: "61",
     location: "St. Louis, MO",
-    summary_title: "What I'm doing with my life",
-    summary:
-      "Monday thru Friday I am a personal-injury lawyer. On the weekend I like going to the gun range and dispersing BLM protesters.",
-    link:
-      "https://www.nytimes.com/video/us/politics/100000007214585/trump-white-couple-guns-st-louis.html",
+    answers: [
+      {
+        question: "What I'm doing with my life",
+        answer:
+          "Monday thru Friday I am a personal-injury lawyer. On the weekend I like going to the gun range and dispersing BLM protesters.",
+      },
+    ],
+    links: [
+      {
+        link:
+          "https://www.nytimes.com/video/us/politics/100000007214585/trump-white-couple-guns-st-louis.html",
+        icon:
+          "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
+      },
+    ],
     image: "images/karen_stl_1_320x280.jpg",
   },
   {
     user: "KaronaVirus19",
     age: "27",
     location: "Dallas, TX",
-    summary_title: "I'm really good at",
-    summary:
-      "Tossing groceries, cursing, and not wearing a mask in public during a global pandemic.",
-    link: "https://www.youtube.com/watch?v=b9oJtSpOQhY",
+    answers: [
+      {
+        question: "I'm really good at",
+        answer:
+          "Tossing groceries, cursing, and not wearing a mask in public during a global pandemic.",
+      },
+    ],
+    links: [
+      {
+        link: "https://www.youtube.com/watch?v=b9oJtSpOQhY",
+        icon: "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
+      },
+    ],
     image: "images/karen_dallas_1_320x280.jpg",
   },
   {
     user: "BBQBecky",
     age: "43",
     location: "Oakland, CA",
-    summary_title: "I spend a lot of time thinking about",
-    summary:
-      "Other people's business and park rules and ordinances regarding charcoal grills.",
-    link:
-      "https://www.nytimes.com/2018/10/22/opinion/calling-police-racism-wyt-fear.html",
+    answers: [
+      {
+        question: "I spend a lot of time thinking about",
+        answer:
+          "Other people's business and park rules and ordinances regarding charcoal grills.",
+      },
+    ],
+    links: [
+      {
+        link:
+          "https://www.nytimes.com/2018/10/22/opinion/calling-police-racism-wyt-fear.html",
+        icon:
+          "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
+      },
+    ],
     image: "images/karen_oakland_1_320x280.jpg",
   },
 ];
@@ -58,9 +103,9 @@ $(function () {
 
 function getHTML(k) {
   const percent = Math.floor(Math.random() * 101);
-  return `
+  let html = `
 <div class="box">
-  <img src="${k.image}" />
+  <img class="img_karen" src="${k.image}" />
   <div class="info">
     <div class="match_percent">
       <div class="match">match</div>
@@ -71,11 +116,21 @@ function getHTML(k) {
       <div class="age_loc">${k.age} &bullet; ${k.location}</div>
     </div>
   </div>
-  <div class="summary_div">
-    <div class="summary_title">${k.summary_title}</div>
-    <div class="summary">${k.summary}</div>
+  <div class="summary_div">`;
+  html += `
+    <div class="summary_title">${k.answers[0].question}</div>
+    <div class="summary">${k.answers[0].answer}</div>
+`;
+  html += `
+  </div>
+  <div class="links">`;
+  for (const l of k.links) {
+    html += `<div class="link"><a href="${l.link}"><img src="${l.icon}"/></a></div>`;
+  }
+  html += `
   </div>
 </div>`;
+  return html;
 }
 
 function setBGColor() {

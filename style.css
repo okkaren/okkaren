@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "GT America";
+  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Regular/GT-America-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "GT America Medium";
+  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Medium/GT-America-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "GT America Black";
+  src: url(https://includes.okccdn.com/flat/fonts/GT-America/Black/GT-America-Black.woff) format("woff");
+}
 html {
   background-color: #5ac1f7;
 }
@@ -8,8 +20,7 @@ body {
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "nyt-franklin", "Helvetica Neue", garamond, helvetica, sans serif;
-  // font-family: GT America, sans-serif;
+  font-family: "GT America", "nyt-franklin", "Helvetica Neue", garamond, helvetica, sans serif;
   width: 100%;
   height: 100%;
 }
@@ -71,11 +82,17 @@ body {
 
 .info {
   position: absolute;
-  top: 230px;
+  top: 231px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 300;
-  font-family: "nyt-stymie", "Helvetica Neue", garamond, helvetica, sans serif;
+  font-family: "GT America Medium", "nyt-franklin", "Helvetica Neue", garamond, helvetica, sans serif;
+  background-color: rgba(0,0,0,0.1);
+  width: 100%;
+  padding: 4px 0;
+}
+.info:hover {
+  background-color: rgba(0,0,0,0.4);
 }
 
 .summary_div {
@@ -87,6 +104,7 @@ body {
 .summary_title {
   font-weight: 700;
   margin-bottom: 4px;
+  font-family: "GT America Black", "nyt-franklin", "Helvetica Neue", garamond, helvetica, sans serif;
 }
 
 footer {

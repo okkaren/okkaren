@@ -146,7 +146,7 @@ let karens = [
       {
         question: "The first thing people notice about me",
         answer:
-          "A faint whiff of cannabis, paranoia, and the self-entitlement to call the police on an 8-year-old girl selling water.",
+          "Is a faint whiff of cannabis, paranoia, and the self-entitlement to call the police on an 8-year-old girl selling water.",
       },
     ],
     links: [

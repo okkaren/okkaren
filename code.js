@@ -3,6 +3,82 @@
 
 let karens = [
   {
+    user: "AnnieOakley",
+    age: "61",
+    location: "St. Louis, MO",
+    answers: [
+      {
+        question: "What I'm doing with my life",
+        answer:
+          "Monday thru Friday I am a personal-injury lawyer. On the weekend I like going to the gun range and dispersing BLM protesters.",
+      },
+    ],
+    links: [
+      {
+        link:
+          "https://www.nytimes.com/video/us/politics/100000007214585/trump-white-couple-guns-st-louis.html",
+        icon:
+          "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
+      },
+      {
+        link:
+          "https://www.washingtonpost.com/nation/2020/07/01/mccloskey-st-louis-guns-protest/",
+        icon:
+          "https://www.washingtonpost.com/pf/resources/images/favicon.ico?d=263",
+      },
+    ],
+    image: "images/karen_stl_1_320x280.jpg",
+  },
+  {
+    user: "BBQBecky",
+    age: "43",
+    location: "Oakland, CA",
+    answers: [
+      {
+        question: "I spend a lot of time thinking about",
+        answer:
+          "Other people's business and park rules and ordinances regarding charcoal grills.",
+      },
+    ],
+    links: [
+      {
+        link: "https://www.bbc.com/news/newsbeat-44167760",
+        icon: "https://www.bbc.com/favicon.ico",
+      },
+      {
+        link:
+          "https://www.nytimes.com/2018/10/22/opinion/calling-police-racism-wyt-fear.html",
+        icon:
+          "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
+      },
+    ],
+    image: "images/karen_oakland_1_320x280.jpg",
+  },
+  {
+    user: "CornerstoreCaroline",
+    age: "55",
+    location: "Brooklyn, NY",
+    answers: [
+      {
+        question: "Favorite books, movies, shows, music, and food",
+        answer: "",
+      },
+    ],
+    links: [
+      {
+        link: "https://heavy.com/news/2018/10/teresa-sue-klein/",
+        icon: "https://heavy.com/favicon.ico",
+      },
+      {
+        link:
+          "https://www.nytimes.com/2018/10/12/nyregion/woman-calls-police-black-boy-brooklyn.html",
+        icon:
+          "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
+      },
+    ],
+    image: "images/karen_bk_1_320x280.jpg",
+  },
+  {
     user: "CPKaren83",
     age: "37",
     location: "New York, NY",
@@ -30,33 +106,6 @@ let karens = [
     image: "images/karen_cp_1_320x280.jpg",
   },
   {
-    user: "KarenOakley",
-    age: "61",
-    location: "St. Louis, MO",
-    answers: [
-      {
-        question: "What I'm doing with my life",
-        answer:
-          "Monday thru Friday I am a personal-injury lawyer. On the weekend I like going to the gun range and dispersing BLM protesters.",
-      },
-    ],
-    links: [
-      {
-        link:
-          "https://www.nytimes.com/video/us/politics/100000007214585/trump-white-couple-guns-st-louis.html",
-        icon:
-          "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
-      },
-      {
-        link:
-          "https://www.washingtonpost.com/nation/2020/07/01/mccloskey-st-louis-guns-protest/",
-        icon:
-          "https://www.washingtonpost.com/pf/resources/images/favicon.ico?d=263",
-      },
-    ],
-    image: "images/karen_stl_1_320x280.jpg",
-  },
-  {
     user: "KaronaVirus19",
     age: "27",
     location: "Dallas, TX",
@@ -82,29 +131,30 @@ let karens = [
     image: "images/karen_dallas_1_320x280.jpg",
   },
   {
-    user: "BBQBecky",
-    age: "43",
-    location: "Oakland, CA",
+    user: "PermitPatty",
+    age: "46",
+    location: "San Francisco, CA",
     answers: [
       {
-        question: "I spend a lot of time thinking about",
+        question: "The first thing people notice about me",
         answer:
-          "Other people's business and park rules and ordinances regarding charcoal grills.",
+          "A faint whiff of cannabis, paranoia, and the self-entitlement to call the police on an 8-year-old girl selling water.",
       },
     ],
     links: [
       {
-        link: "https://www.bbc.com/news/newsbeat-44167760",
-        icon: "http://www.bbc.com/favicon.ico",
+        link:
+          "https://www.cnn.com/2018/06/25/us/permit-patty-san-francisco-trnd/index.html",
+        icon: "https://www.cnn.com/favicon.ico",
       },
       {
         link:
-          "https://www.nytimes.com/2018/10/22/opinion/calling-police-racism-wyt-fear.html",
+          "https://www.nytimes.com/2018/06/25/us/permit-patty-black-girl-water.html",
         icon:
           "https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico",
       },
     ],
-    image: "images/karen_oakland_1_320x280.jpg",
+    image: "images/karen_sf_1_320x280.jpg",
   },
 ];
 

@@ -2,6 +2,19 @@
 
 [Parody dating site.](https://okkaren.github.io/okkaren/)
 
+# Questions
+
+- My Self Summary
+- What I'm doing with my life
+- I'm really good at
+- The first thing people notice about me
+- Favorite books, movies, shows, music, and food
+- The six things I could never do without
+- I spend a lot of time thinking about
+- On a typical Friday night I am
+- The most private thing I’m willing to admit
+- You should message me if
+
 ## Git
 
 ```

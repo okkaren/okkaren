@@ -62,7 +62,7 @@ let karens = [
       {
         question: "On a typical Friday night I am",
         answer:
-          "At my local corner deli accusing children of sexual assualt and berating bystands who are telling me to go home.",
+          "At my local corner deli accusing children of sexual assualt and berating bystanders who are telling me to go home.",
       },
     ],
     links: [

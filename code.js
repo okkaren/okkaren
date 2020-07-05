@@ -164,6 +164,30 @@ let karens = [
     ],
     image: "images/karen_sf_1_320x280.jpg",
   },
+  {
+    user: "TorranceKaren",
+    age: "56",
+    location: "Long Beach, CA",
+    answers: [
+      {
+        question: "You should message me if",
+        answer:
+          "You are an unstable xenophobe with a proclivity for threatening and harassing strangers.",
+      },
+    ],
+    links: [
+      {
+        link:
+          "https://www.latimes.com/california/story/2020-06-18/prosecutors-considering-charges-against-woman-who-went-on-anti-asian-racist-tirades",
+        icon: "https://www.latimes.com/favicon.ico",
+      },
+      {
+        link: "https://www.youtube.com/watch?v=OVn-tqsiz9Y",
+        icon: "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
+      },
+    ],
+    image: "images/karen_torrance_1_320x280.jpg",
+  },
 ];
 
 $(function () {
